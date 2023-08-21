@@ -1,0 +1,23 @@
+<body>
+
+    <div class="interface">
+
+        <section>
+            <div class="content">
+                <h1> -Categorias- </h1>
+
+                <div class="text">
+                    <p> Abaixo você encontrará todas as categorias e seus respectivos filmes. Navegue e descrubra todos os filmes disponíveis! </p>
+                </div>
+
+                <div class="categorias">
+                    <div class="coluna1">
+                        <cin-categoria *ngFor="let c of categorias" [categoria]="c"></cin-categoria>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+</body>

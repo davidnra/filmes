@@ -1,0 +1,8 @@
+/* Apply Styles to Footer Text */
+.footer-content .card p {
+    font-size: 1.1em;
+    color: #fff;
+    text-align: center;
+    padding: 1rem; /* Add padding for spacing */
+    background-color: black;
+}

@@ -1,0 +1,18 @@
+<body>
+
+    <div class="interface">
+
+        <section>
+            <div class="content">
+                <div *ngFor="let filme of filmes" class="categorias">
+                    <cin-filme [filme]="filme" ></cin-filme>
+                </div>
+            </div>
+            <div *ngIf="filmes.length == 0">
+                <h3 style="color: #fff"> Não existem filmes nesta categoria! </h3>
+            </div>
+        </section>
+
+    </div>
+
+</body>

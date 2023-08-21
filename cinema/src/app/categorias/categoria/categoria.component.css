@@ -1,0 +1,48 @@
+/* NAVEGAÇÃO */
+a {
+    display: block; /* Take up full width for padding */
+    padding: 1rem; /* Adjust padding to your design */
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s; /* Add transitions for smoother hover effect */
+}
+
+a:hover {
+    background-color: #13eb0b; /* Change background color on hover */
+    color: #000; /* Change text color on hover */
+}
+
+/* SECTION */
+.text p {
+    color: #f7fcf9;
+    line-height: 1.5rem;
+    margin: 3.5rem 0 8rem; /* Adjust margins as needed */
+    padding: 1rem; /* Add padding for better readability */
+    text-align: justify;
+    border-radius: 10px;
+    background-color: black;
+}
+
+/* Categories */
+.categorias a {
+    border-radius: 10px;
+    padding: 1rem;
+    color: #fff;
+    background-color: rgb(84, 202, 84);
+    transition: background-color 0.3s; /* Add transition for smoother hover effect */
+}
+
+.categorias a:hover {
+    background-color: rgb(120, 216, 120);
+    cursor: pointer;
+}
+
+/* Genres */
+.acao {
+    padding: 2.5rem 0;
+    margin-bottom: 3.5rem;
+    border: 1px solid #fff; /* Combine border properties */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

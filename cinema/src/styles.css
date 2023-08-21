@@ -1,0 +1,20 @@
+/* Reset and Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+    background-image: url('./assets/img/background/thumb-1920-1040260.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #333;
+}
+
+/* Additional Styling for Specific Elements */
+/* You can add more specific styles for different elements here */

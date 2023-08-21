@@ -1,0 +1,136 @@
+/* Reset and Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #0f0f0f;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ccc;
+}
+
+a {
+    padding: 1rem;
+    color: #13eb0b;
+    text-decoration: none;
+}
+
+/* Navigation */
+nav .navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #990e25;
+    padding: 1.3rem;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 1.1em;
+    line-height: 60px;
+    width: 15%;
+    border-right: 1px solid #fff;
+}
+
+.navbar li:last-child {
+    border: none;
+}
+
+.navbar li:hover {
+    background-color: #141414;
+    cursor: pointer;
+}
+
+/* Interface */
+.interface {
+    height: 75%;
+    width: 100%;
+    max-width: 1920px;
+    max-height: 1080px;
+    margin: auto;
+}
+
+/* Section */
+section {
+    border-radius: 25px;
+    padding: 10vh 0;
+    width: 80%;
+    /* background-color: rgba(0, 0, 0, 0.6); */
+    margin: 15vh auto;
+}
+
+.text {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text p {
+    color: #ccc;
+    line-height: 1.5rem;
+    margin-top: 2rem;
+    text-align: justify;
+}
+
+h1 {
+    color: #13eb0b;
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 1.5rem;
+}
+
+/* Categories */
+.categorias a {
+    border-radius: -22px;
+    padding: 1rem;
+    color: #ffffff;
+    background-color: #13eb0b;
+}
+
+.categorias a:hover {
+    cursor: pointer;
+    background-color: #0ca50c;
+}
+
+/* Featured Columns */
+.coluna1 {
+    /* border-top: 1px solid #fff; */
+    padding: 2.5rem 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nome {
+    color: #ffffff;
+    margin-bottom: 3.5rem;
+    font-size: xx-large;
+    text-align: center;
+}
+
+/* Genres */
+.acao, .suspense, .terror, .drama, .ficcao {
+    border-radius: 20px;
+    /* background-color: #282828; */
+    padding: 5rem;
+    padding-top: 5rem;
+    margin-bottom: 3.5rem;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    color: #ddec09;
+}

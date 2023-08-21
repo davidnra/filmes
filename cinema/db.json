@@ -1,0 +1,87 @@
+{
+    "categorias": [
+        {
+            "id": 1,
+            "titulo": "Ação"
+        },
+        {
+            "id": 2,
+            "titulo": "Suspense"
+        },
+        {
+            "id": 3,
+            "titulo": "Terror"
+        },
+        {
+            "id": 4,
+            "titulo": "Drama"
+        },
+        {
+            "id": 5,
+            "titulo": "Ficção"
+        }
+    ],
+    "filmes": [
+        {
+            "id": 1,
+            "img": "../../assets/img/acao/mib-internacional.jpg",
+            "categoriaId": 1
+        },
+        {
+            "id": 2,
+            "img": "../../assets/img/acao/cidade-perdida.jpg",
+            "categoriaId": 1
+        },
+        {
+            "id": 3,
+            "img": "../../assets/img/acao/a-chamada.jpg",
+            "categoriaId": 1
+        },
+        {
+            "id": 4,
+            "img": "../../assets/img/suspense/a-hora-do-desespero.jpg",
+            "categoriaId": 2
+        },
+        {
+            "id": 5,
+            "img": "../../assets/img/suspense/ilha-do-medo.jpg",
+            "categoriaId": 2
+        },
+        {
+            "id": 6,
+            "img": "../../assets/img/suspense/panico.jpg",
+            "categoriaId": 2
+        },
+        {
+            "id": 7,
+            "img": "../../assets/img/terror/a-luz-do-demonio.jpg",
+            "categoriaId": 3
+        },
+        {
+            "id": 8,
+            "img": "../../assets/img/terror/maligno-.jpg",
+            "categoriaId": 3
+        },
+        {
+            "id": 9,
+            "img": "../../assets/img/terror/ju-on.jpg",
+            "categoriaId": 3
+        },
+        {
+            "id": 10,
+            "img": "../../assets/img/drama/elizabeth.jpg",
+            "categoriaId": 4
+        },
+        {
+            "id": 11,
+            "img": "../../assets/img/drama/algum-lugar-especial.jpg",
+            "categoriaId": 4
+        },
+        {
+            "id": 12,
+            "img": "../../assets/img/drama/verlust.jpg",
+            "categoriaId": 4
+        }
+
+    ]
+}
